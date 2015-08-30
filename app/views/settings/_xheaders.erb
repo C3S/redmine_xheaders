@@ -1,0 +1,11 @@
+<h4><%= l(:header_issues)%></h4>
+<p>
+    <%= label_tag     'settings[status]', l(:label_status) %>
+    <%= check_box_tag 'settings[status]', nil,
+                      @settings['status'] %>
+</p>
+<p>
+    <%= label_tag     'settings[priority]', l(:label_priority) %>
+    <%= check_box_tag 'settings[priority]', nil,
+                      @settings['priority'] %>
+</p>
