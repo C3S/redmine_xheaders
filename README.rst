@@ -1,3 +1,4 @@
+================
 Redmine Xheaders
 ================
 
@@ -7,17 +8,17 @@ developed for `C3S - (Cultural Commons Collecting Society) <https://c3s.cc>`_
 
 
 Details
--------
+=======
 
 Adding/editing issues
-'''''''''''''''''''''
+---------------------
 
 - Status (e.g. to emphasize a certain status)
 - Priority (e.g. to emphasize a certain priority)
 
 
 Compatibility
--------------
+=============
 
 This plugin has been tested with
 ::
@@ -26,31 +27,31 @@ This plugin has been tested with
 
 
 Installation
-------------
+============
 
-1. clone this repo into ``/path/to/redmine/plugins/xheaders``
+#. clone this repo into ``/path/to/redmine/plugins/xheaders``
 
-   ``git clone https://github.com/C3S/redmine_xheaders /path/to/redmine/plugins/xheaders``
+     ``git clone https://github.com/C3S/redmine_xheaders /path/to/redmine/plugins/xheaders``
 
-2. restart redmine
+#. restart redmine
 
-   ``sudo service apache2 restart``
+     ``sudo service apache2 restart``
 
 
 Configuration
--------------
+=============
 
 Each individual X-Header may be (de-)activated within the plugin settings.
 
 
 Contributions
--------------
+=============
 
 - `Alexander Blum <https://github.com/timegrid>`_
 
 
 License
--------
+=======
 ::
 
     Redmine plugin for additional x-headers in outgoing mails
